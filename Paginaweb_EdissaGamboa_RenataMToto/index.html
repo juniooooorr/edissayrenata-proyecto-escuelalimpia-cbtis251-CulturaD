@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Una Escuela Limpia es Orgullo de Todos</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+line-height:1.8;
+}
+
+/* PORTADA */
+
+header{
+height:100vh;
+background-image: url("cerretisportada.jpeg");
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+header h1{
+font-size:65px;
+margin-bottom:20px;
+}
+
+header p{
+font-size:25px;
+}
+
+/* MENU */
+
+nav{
+background:#1fb81f;
+position:sticky;
+top:0;
+z-index:1000;
+padding:20px;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+gap:30px;
+flex-wrap:wrap;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+/* SECCIONES */
+
+section{
+background:white;
+margin:40px;
+padding:50px;
+border-radius:20px;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+
+h2{
+text-align:center;
+color:#2e7d32;
+margin-bottom:30px;
+font-size:40px;
+}
+
+/* GALERIA */
+
+.galeria{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+margin-top:30px;
+}
+
+.galeria img{
+width:350px;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.galeria img:hover{
+transform:scale(1.05);
+}
+
+/* VIDEOS */
+
+.video{
+display:flex;
+justify-content:center;
+margin-top:30px;
+}
+
+iframe{
+width:900px;
+height:500px;
+border:none;
+border-radius:15px;
+}
+
+/* BOTONES */
+
+.boton{
+display:inline-block;
+padding:15px 25px;
+background:#2e7d32;
+color:white;
+text-decoration:none;
+border-radius:10px;
+margin-top:20px;
+font-weight:bold;
+}
+
+.boton:hover{
+background:#1b5e20;
+}
+
+/* LISTAS */
+
+ul li{
+margin-bottom:15px;
+}
+
+/* PIE */
+
+footer{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div>
+
+<h1>Una Escuela Limpia es Orgullo de Todos</h1>
+
+<p>
+Proyecto de concientización ambiental en el CBTis 251
+</p>
+
+</div>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="#intro">Introducción</a></li>
+
+<li><a href="#problema">Problemática</a></li>
+
+<li><a href="#video1">Video Concientización</a></li>
+
+<li><a href="#propuestas">Propuestas</a></li>
+
+<li><a href="#video2">Video Explicativo</a></li>
+
+<li><a href="#conclusion">Conclusión</a></li>
+
+</ul>
+
+</nav>
+
+<section id="intro">
+
+<h2>Introducción</h2>
+
+<p>
+
+La limpieza escolar es una responsabilidad compartida entre estudiantes, docentes y personal educativo. Mantener los espacios limpios favorece un ambiente agradable para el aprendizaje, mejora la imagen institucional y contribuye al cuidado del medio ambiente.
+
+Este proyecto tiene como finalidad crear conciencia sobre la importancia de conservar limpio el CBTis 251 y fomentar acciones responsables que ayuden a reducir la contaminación dentro de la institución.
+
+</p>
+
+</section>
+
+<section id="problema">
+
+<h2>Problemática Ambiental Local</h2>
+
+<p>
+
+Dentro de algunas instituciones educativas, incluyendo el CBTis 251, pueden presentarse situaciones como la acumulación de basura en patios, pasillos y áreas verdes, así como el uso excesivo de materiales desechables y la falta de separación de residuos.
+
+Estas acciones generan contaminación visual, afectan la convivencia escolar y pueden ocasionar problemas de higiene. Además, reflejan la necesidad de fortalecer la conciencia ambiental entre estudiantes, docentes y personal de la institución.
+
+</p>
+
+<div class="galeria">
+
+<img src="contenedorbasura.jpeg" alt="Problema ambiental">
+
+<img src="masbasura.jpeg" alt="Basura">
+
+<img src="muchamasbasura.jpeg" alt="Contaminación">
+
+</div>
+
+</section>
+
+<section id="video1">
+
+<h2>Video de Concientización</h2>
+
+<p>
+
+Observa el siguiente video para reflexionar sobre la importancia de cuidar nuestro entorno y asumir la responsabilidad de mantener limpios los espacios que compartimos diariamente.
+
+</p>
+
+<div class="video">
+
+<video width="800" controls>
+    <source src="videoconcientizacion.mp4" type="video/mp4">
+    Tu navegador no soporta videos.
+</video>
+
+</div>
+
+</section>
+
+<section id="propuestas">
+
+<h2>Propuestas de Acción</h2>
+
+<ul>
+
+<li>Realizar jornadas periódicas de limpieza escolar.</li>
+
+<li>Promover campañas de separación de residuos.</li>
+
+<li>Instalar más contenedores de basura.</li>
+
+<li>Fomentar el reciclaje de papel, plástico y cartón.</li>
+
+<li>Crear brigadas ecológicas estudiantiles.</li>
+
+<li>Desarrollar actividades de educación ambiental.</li>
+
+</ul>
+
+<div class="galeria">
+
+<img src="accion1.png">
+
+<img src="accion2.png">
+
+<img src="accion3.png">
+
+</div>
+
+<center>
+
+<a href="#conclusion" class="boton">
+
+Participa y Cuida tu Escuela
+
+</a>
+
+</center>
+
+</section>
+
+<section id="video2">
+
+<h2>Video Explicativo</h2>
+
+<p>
+
+La educación ambiental permite comprender cómo nuestras acciones impactan el entorno. Este video complementa la información presentada en el proyecto.
+
+</p>
+
+<div class="video">
+
+<iframe
+src="https://www.youtube.com/embed/TV-YEQOIFuQ"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</section>
+
+<section id="conclusion">
+
+<h2>Conclusión</h2>
+
+<p>
+
+Mantener limpio el CBTis 251 es una tarea que requiere la participación de toda la comunidad escolar. Pequeñas acciones, como depositar la basura en su lugar, reciclar materiales y cuidar las áreas verdes, pueden generar grandes cambios.
+
+Una escuela limpia refleja respeto, responsabilidad y compromiso con el medio ambiente. Trabajando juntos podemos construir un espacio más saludable, agradable y digno para todos.
+
+</p>
+
+</section>
+
+<footer>
+
+Proyecto Ambiental Escolar • CBTis 251 • 2026 • 
+Edissa Gamboa y Renata Michelle Toto
+
+</footer>
+
+</body>
+</html>
